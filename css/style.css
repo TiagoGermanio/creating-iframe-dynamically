@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid{
+    gap: 30px;
+    display: grid;
+    width: 100%;
+    max-width: 500px;
+    grid-template-columns: repeat(3,1fr);
+    margin: 100px auto;
+    justify-content: center;
+}
+.login-form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0px;
+}
+.login_header{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.login_input{
+  border: 1px solid#333;
+  border-radius: 8px;
+  color: #333;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+  max-width: 300px;
+  outline: none;
+  padding: 15px;
+  width: 50%;
+}
+.imagemLupa{
+  max-width: 20px;
+}
+.login_button{
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  max-width: 50px;
+  padding: 7px;
+  width: 100%;
+  background-color: #fff;
+  max-height: 90px;
+  border: none;
+}
+
+.card{
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+.card-title{
+  border: none;
+
+}
+.header-style{
+  background-image: url('../img/header.jpg');
+  height: 90px;
+  filter: saturate(0);
+}
+.footer {
+  width: 80%;
+  float: right;
+  height: 60px;
+  background-image: url('../img/matito.png');
+  background-color: rgba(0, 128, 0, 0.797);
+  border-radius: 12px 0;
+
+}
+.footer p{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logo img{
+  width: 90px;
+  height: 100px;
+  border-radius: 100%;
+}
+.logo{
+  padding: 30px 9px 9px 30px;
+  width: 10px;
+  max-width: 40px;
+  border-radius: 50%;
+}
+.video-style{
+width: 350px;
+height: 250px;
+border: none;
+border-radius: 12px;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
